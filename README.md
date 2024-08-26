@@ -41,8 +41,8 @@ Plot the performance plot
 Evaluate the model with the testing data.
 
 ## PROGRAM
-### Name:Prema Latha.S
-### Register Number:212222230112
+### Name:Hemasonca.P
+### Register Number:212222230048
 ```python
 import pandas as pd
 
@@ -62,7 +62,7 @@ gc = gspread.authorize(creds)
 
 worksheet = gc.open('DL').sheet1
 data = worksheet.get_all_values()
-\
+
 dataset1 = pd.DataFrame(data[1:], columns=data[0])
 dataset1 = dataset1.astype({'int':'float'})
 dataset1 = dataset1.astype({'out':'float'})
